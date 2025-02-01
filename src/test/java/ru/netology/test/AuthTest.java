@@ -1,4 +1,4 @@
-package ru.netology;
+package ru.netology.test;
 
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.BeforeEach;
@@ -9,10 +9,10 @@ import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static ru.netology.AuthDataGenerator.Registration.getRegisteredUser;
-import static ru.netology.AuthDataGenerator.Registration.getUser;
-import static ru.netology.AuthDataGenerator.getRandomLogin;
-import static ru.netology.AuthDataGenerator.getRandomPassword;
+import static ru.netology.data.AuthDataGenerator.Registration.getRegisteredUser;
+import static ru.netology.data.AuthDataGenerator.Registration.getUser;
+import static ru.netology.data.AuthDataGenerator.getRandomLogin;
+import static ru.netology.data.AuthDataGenerator.getRandomPassword;
 
 class AuthTest {
 
